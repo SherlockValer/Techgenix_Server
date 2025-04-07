@@ -1,0 +1,6 @@
+/node_modules
+
+.env
+/categories_data.json
+/electronics_updated.json
+/seedData.js
