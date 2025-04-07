@@ -19,10 +19,8 @@ app.use(express.json())
 
 // import cors
 const cors = require('cors')
-const corsOptions = {
-    origin: '*',
-}
-app.use(cors(corsOptions))
+app.use(cors())
+app.options("*", cors())
 
 // Read all products from database
 async function readAll() {
