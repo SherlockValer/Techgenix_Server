@@ -20,7 +20,7 @@ app.use(express.json())
 // import cors
 const cors = require('cors')
 const corsOptions = {
-    origin: 'https://techgenix-app.vercel.app/',
+    origin: '*',
 }
 app.use(cors(corsOptions))
 
